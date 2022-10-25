@@ -53,8 +53,10 @@ let array1 = ["elemento1","elemento2","elemento3"];
 
 let array2 = ["oggetto1","oggetto2","oggetto3","oggetto4","oggetto5"];
 
+let differenzArray = array2.length - array1.length;
+
 if (array1.length < array2.length) {
-    for (let i = 0; i < array2.length; i++){
+    for (let i = 0; i < differenzArray; i++){
          array1.push("nuovoOggetto");
     };
    
