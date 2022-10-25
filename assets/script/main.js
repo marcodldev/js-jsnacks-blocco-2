@@ -45,3 +45,18 @@ let numeriInteri = [1,2,3,4,5,6,7,8,9,10];
 console.log(somma);
 
   //FUNZIONA
+
+// *Snack4 (Bonus)*
+// Crea due array che hanno un numero di elementi diversi.  Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.  
+
+let array1 = ["elemento1","elemento2","elemento3"];
+
+let array2 = ["oggetto1","oggetto2","oggetto3","oggetto4","oggetto5"];
+
+if (array1.length < array2.length) {
+         array1.push("nuovoOggetto");
+    };
+
+
+console.log(array1);
+console.log(array2);
