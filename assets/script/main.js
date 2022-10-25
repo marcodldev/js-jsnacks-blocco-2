@@ -54,9 +54,11 @@ let array1 = ["elemento1","elemento2","elemento3"];
 let array2 = ["oggetto1","oggetto2","oggetto3","oggetto4","oggetto5"];
 
 if (array1.length < array2.length) {
+    for (let i = 0; i < array2.length; i++){
          array1.push("nuovoOggetto");
     };
-
+   
+}
 
 console.log(array1);
 console.log(array2);
